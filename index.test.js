@@ -82,5 +82,8 @@ describe('sayilar görevi', ()=>{
     })
     it('tekraredensayilar tekrar eden tüm sayıları içeriyor', ()=>{
 	expect(functions.tekraredensayilar).toEqual(expect.arrayContaining(tekrar));
-    })
+    }) 
 });
+function carpma(sayi1, sayi2) {
+    return sayi1 * sayi2;
+}
